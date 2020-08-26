@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 function Landing() {
     return (
-      <div className="landing">
-        <p>Marina Carbonell Álvarez.</p>
+      <div className="wrapper">
+        <p className="name-paragraph">Marina Carbonell Álvarez.</p>
         <div>
           <button className="button">
             <Link to="/hello">Hello!</Link>

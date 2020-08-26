@@ -2,3 +2,11 @@ html{
     background-color: #FFEBCD;
     font-family: 'Quicksand', sans-serif;
 }
+
+.wrapper{
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
