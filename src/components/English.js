@@ -1,5 +1,4 @@
 import React from 'react';
-import '../stylesheets/Cv.scss';
 
 function English() {
     return (
@@ -17,7 +16,7 @@ function English() {
           <p>
             Y si tú has llegado hasta aquí es porque estás interesado en mi CV a si que, ¡gracias!
           </p>
-        </div>
+        </div>  
       </div>
     );
   }

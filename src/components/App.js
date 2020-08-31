@@ -6,6 +6,7 @@ import Landing from './Landing';
 import {Switch, Route} from 'react-router-dom';
 import English from './English';
 import Spanish from './Spanish';
+import CV from './CV';
 
 function App() {
   return (
@@ -13,7 +14,10 @@ function App() {
       <Switch>
         <Route exact path="/" component={Landing} />
         <Route path="/hello" component={English} />
-        <Route path="/hola" component={Spanish} />
+        <Route path="/hola" component={() => <Spanish greeting="¡Hola! Soy Marina y soy especialista en Marketing Digital en la parte de SEM, Google Analytics, Tag Manager y Social Media y me he reconvertido en
+            programadora Front-end gracias a Adalab y busco poder dedicarme a ello." thanks="Y si tú has llegado hasta aquí es porque estás interesado en mi CV a si que, ¡gracias!"/>}></Route>
+        <Route exact path="/cv" component={CV} />
+
       </Switch>
       
     </div>

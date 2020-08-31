@@ -1,29 +1,24 @@
 import React from 'react';
-import '../stylesheets/Cv.scss';
+import SideBar from './SideBar';
 
-function Spanish() {
+
+function Spanish(props) {
     return (
       <div className="cv-wrapper">
+        <SideBar pageWrapId={"page-wrap"} outerContainerId={"Spanish"} />
         <div className="name">
           <span>Marina</span>
           <span>Carbonell</span>
           <span>Álvarez</span>
         </div>
-        <div className="burguer-menu">
-          <div>Sobre Mí</div>
-          <div>Mi Currículum</div>
-          <div>Proyetos</div>
-          <div>Contacto</div>
-          <div className="text">
-        </div>
+        <div className="text">
           <p>
-            ¡Hola! Soy Marina y soy especialista en Marketing Digital en la parte de SEM, Google Analytics, Tag Manager y Social Media y me he reconvertido en
-            programadora Front-end gracias a Adalab y busco poder dedicarme a ello.
+            {props.greeting}
           </p>
           <p>
-            Y si tú has llegado hasta aquí es porque estás interesado en mi CV a si que, ¡gracias!
+            {props.thanks}
           </p>
-        </div>
+        </div>  
       </div>
     );
   }
