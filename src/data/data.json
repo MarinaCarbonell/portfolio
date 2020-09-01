@@ -1,0 +1,131 @@
+[
+    {
+      "id": "project1",
+      "name": "Queens of Code",
+      "tecnologies": [
+        {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+        {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+        {"name":"SASS", "url": "./images/logos/sass.svg"}
+      ],
+      "description": "Web grupal para presentar a las integrantes del equipo de trabajo de Adalab.",
+      "image": "./images/project-module-1.png",
+      "webURL": "http://beta.adalab.es/project-promo-j-module-1-team-5/",
+      "githubURL": "https://github.com/Adalab/project-promo-j-module-1-team-5"
+    },
+    {
+      "id": "final_module1",
+      "name": "Anonimous Proxy",
+      "tecnologies": [
+        {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+        {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+        {"name":"SASS", "url": "./images/logos/sass.svg"}
+      ],
+      "description": "Web individual maquetada según diseño dado por Zeplin.",
+      "image": "./images/module-1-final.png",
+      "webURL": "http://beta.adalab.es/modulo-1-evaluacion-final-anapy/",
+      "githubURL": "https://github.com/Adalab/modulo-1-evaluacion-final-anapy"
+    },
+    {
+      "id": "project2",
+      "name": "Sailor Code",
+      "tecnologies": [
+        {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+        {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+        {"name":"SASS", "url": "./images/logos/sass.svg"},
+        {"name":"JavaScript", "url": "./images/logos/JS.png"},
+        {"name":"API Rest", "url": "./images/logos/API.png"}
+      ],
+      "description": "Web interactica que permite la creación de tarjeta de visitas personalizadas ambientada en Sailor Moon.",
+      "image": "./images/project-module-2.jpg",
+      "webURL": "http://beta.adalab.es/project-module-2-group-6/",
+      "githubURL": "https://github.com/Adalab/project-module-2-group-6"
+    },
+    {
+      "id": "intermediate_module2",
+      "name": "Adivina el número",
+      "tecnologies": [
+        {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+        {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+        {"name":"SASS", "url": "./images/logos/sass.svg"},
+        {"name":"JavaScript", "url": "./images/logos/JS.png"}
+      ],
+      "description": "Web que contiene un juego de adivinar el número del 1-100 con pistas y contador de errores.",
+      "image": "./images/module-2-intermedia.png",
+      "webURL": "http://beta.adalab.es/modulo-2-evaluacion-intermedia-anapy/",
+      "githubURL": "https://github.com/Adalab/modulo-2-evaluacion-intermedia-anapy"
+    },
+    {
+      "id": "final_module2",
+      "name": "Serieaholic",
+      "tecnologies": [
+        {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+        {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+        {"name":"SASS", "url": "./images/logos/sass.svg"},
+        {"name":"JavaScript", "url": "./images/logos/JS.png"},
+        {"name":"API Rest", "url": "./images/logos/API.png"}
+      ],
+      "description": "Web que recoge información de series de una API y permite hacer búsquedas y guardar favoritos.",
+      "image": "./images/module-2-final.png",
+      "webURL": "http://beta.adalab.es/modulo-2-evaluacion-final-anapy/",
+      "githubURL": "https://github.com/Adalab/modulo-2-evaluacion-final-anapy"
+    },
+    {
+      "id": "intermediate_module3",
+      "name": "My Pokedex",
+      "tecnologies": [
+        {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+        {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+        {"name":"SASS", "url": "./images/logos/sass.svg"},
+        {"name":"JavaScript", "url": "./images/logos/JS.png"},
+        {"name":"React", "url": "./images/logos/React.png"}
+      ],
+      "description": "Web en react que muestra una serie de pokemons y permite marcarlos como favoritos.",
+      "image": "./images/module-3-intermediate.png",
+      "webURL": "http://beta.adalab.es/modulo-3-evaluacion-intermedia-anapy/",
+      "githubURL": "hhttps://github.com/Adalab/modulo-3-evaluacion-intermedia-anapy"
+    },
+    {
+      "id": "final_module3",
+      "name": "Rick and Morty",
+      "tecnologies": [
+        {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+        {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+        {"name":"SASS", "url": "./images/logos/sass.svg"},
+        {"name":"JavaScript", "url": "./images/logos/JS.png"},
+        {"name":"API Rest", "url": "./images/logos/API.png"},
+        {"name":"React", "url": "./images/logos/React.png"}
+      ],
+      "description": "Web realizada con react y ambientada en Rick y Morty que consulta una API y permite realizar búsquedas eligiendo diferentes filtros.",
+      "image": "./images/module-3-final.png",
+      "webURL": "http://beta.adalab.es/modulo-3-evaluacion-final-anapy/#/",
+      "githubURL": "https://github.com/Adalab/modulo-3-evaluacion-final-anapy"
+    },
+    {
+      "id": "project3",
+      "name": "Kard Ma Cards",
+      "tecnologies": [
+        {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+        {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+        {"name":"SASS", "url": "./images/logos/sass.svg"},
+        {"name":"JavaScript", "url": "./images/logos/JS.png"},
+        {"name":"API Rest", "url": "./images/logos/API.png"},
+        {"name":"React", "url": "./images/logos/React.png"}
+      ],
+      "description": "Proyecto con código heredado en JavaScript y refactorizado a react manteniendo las funcionalidades y añadiendo nuevas al original.",
+      "image": "./images/project-module-3.png",
+      "webURL": "http://beta.adalab.es/project-promo-j-module-3-team-8/#/",
+      "githubURL": "https://github.com/Adalab/project-promo-j-module-3-team-8"
+    },
+    {
+      "id": "Java_project",
+      "name": "Gestion fabrica de muebles",
+      "tecnologies": [
+        {"name":"Java","url": "./images/logos/JAVA.png"}
+      ],
+      "description": "Aplicación en Java para la gestión de pedidos de una fábrica de muebles, elaborada de acuerdo a la POO.",
+      "image": "https://via.placeholder.com/200x80/385772/FFFFFF?text=No+web+image",
+      "webURL": "",
+      "githubURL": "https://github.com/anapy/Gestion-fabrica-artesanal-de-muebles"
+    }
+  ]
+  

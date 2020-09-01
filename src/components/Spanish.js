@@ -1,18 +1,18 @@
 import React from 'react';
 import SideBar from './SideBar';
+import '../stylesheets/Languages.scss';
+import image from '../images/M.png';
 
 
 function Spanish(props) {
     return (
-      <div className="cv-wrapper">
+      <div>
         <SideBar pageWrapId={"page-wrap"} outerContainerId={"Spanish"} />
         <div className="name">
-          <span>Marina</span>
-          <span>Carbonell</span>
-          <span>Álvarez</span>
+        <img className="profile-img" src={image} alt="profile-img"></img>
         </div>
-        <div className="text">
-          <p>
+        <div className="cv-wrapper">
+          <p className="text">
             {props.greeting}
           </p>
           <p>

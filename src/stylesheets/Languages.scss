@@ -1,0 +1,14 @@
+.cv-wrapper{
+    margin: 150px;
+    font-size:45px;
+    animation-name: text;
+    animation-duration: 5s;
+}
+
+@keyframes text {
+    0%   {opacity: 0;}
+    25%  {opacity: 0.25s}
+    50%  {opacity: 0.5s}
+    75%  {opacity: 0.75s}
+    100% {opacity: 1s;}
+  }
