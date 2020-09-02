@@ -1,12 +1,12 @@
 import React from 'react';
 import SideBar from './SideBar';
 import '../stylesheets/Languages.scss';
-import image from '../images/M.png';
+import image from '../docs/images/M.png';
 
 
 function Spanish(props) {
     return (
-      <div>
+      <div className="languages">
         <SideBar pageWrapId={"page-wrap"} outerContainerId={"Spanish"} />
         <div className="name">
         <img className="profile-img" src={image} alt="profile-img"></img>

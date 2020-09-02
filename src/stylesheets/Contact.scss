@@ -1,0 +1,41 @@
+.fas{
+    font-size:40px;
+}
+
+.contact{
+    margin:50px;    
+}
+
+.contact__main{
+    margin: 50px;
+    text-align: center;
+}
+
+.contact__principal {
+    font-size:45px;
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+      typing 4.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+
+}
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+
+  .contact__form{
+      display: flex;
+      flex-direction: column;
+  }
+

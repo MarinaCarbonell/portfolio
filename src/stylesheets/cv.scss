@@ -1,0 +1,43 @@
+.cv__studies{
+  margin:45px;
+}
+
+.cv__body {
+    margin:45px;
+}
+.cv__title {
+    text-align: center;
+    font-size:45px;
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+      typing 4.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+
+}
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+
+.cv__work-title{
+  font-size: 25px;
+}
+
+.cv__languages-title{
+  font-size: 25px;
+}
+
+ 
+
+
+
