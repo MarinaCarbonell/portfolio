@@ -1,9 +1,8 @@
 
-.cv-wrapper{
-  margin: 50px;
+.landing-wrapper{
+  margin: 200px 70px;
   .text{
-    display: flex;
-    flex-direction: column;
+    text-align: justify;
     font-size:45px;
     animation-name: text;
     animation-duration: 5s;
@@ -18,10 +17,3 @@
   }
 }
 
-.profile-img{
-  position: fixed;
-  width: 150px;
-  height: 150px;
-  left: 36px;
-  top: 36px;
-}

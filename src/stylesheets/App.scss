@@ -5,10 +5,11 @@ html{
 
 .wrapper{
     margin:150px;
-    text-align: center;
+    
 }
 
 .title{
+    text-align: center;
     font-size:45px;
     overflow: hidden;
     border-right: .15em solid black;
@@ -27,5 +28,12 @@ html{
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: black; }
+  }
+
+  .profile-img{
+    position: fixed;
+    width: 150px;
+    left: 36px;
+    top: 36px;
   }
 
