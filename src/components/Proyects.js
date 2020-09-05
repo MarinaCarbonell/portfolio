@@ -4,7 +4,7 @@ import '../stylesheets/Proyects.scss';
 function Proyects() {
     return (
       <div className="wrapper">
-        <div className="proyects__title">
+        <div className="title">
           Mis Proyectos
         </div>
         <div className="proyects__list">

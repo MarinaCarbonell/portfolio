@@ -5,7 +5,7 @@ function CV() {
     return (
     <div className="wrapper">
           <div className="cv__studies">
-          <h3 className="cv__title">Breve resumen sobre mi</h3>
+          <h3 className="title">Breve resumen sobre mi</h3>
           <div className="cv__body">
             <p className="cv__paragraph">
               Estudié Turismo a través de una beca llamada CEURA otorgada en Viajes El Corte Inglés

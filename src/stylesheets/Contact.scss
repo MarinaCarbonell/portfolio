@@ -1,10 +1,13 @@
 
-.contact{
-    margin:50px;    
+.contact__question{
+  font-size: 25px;
 }
 
-.contact__main{
+.contact__main {
     text-align: center;
+    margin:50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact__principal {
@@ -17,21 +20,29 @@
     animation: 
       typing 4.5s steps(40, end),
       blink-caret .75s step-end infinite;
+}
 
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
   
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
   
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black; }
-  }
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
 
-  .contact__form{
-      display: flex;
-      flex-direction: column;
+.contact__form{
+    display: flex;
+    flex-direction: column;
+  &-input{
+    width: 300px;
   }
+}
 
