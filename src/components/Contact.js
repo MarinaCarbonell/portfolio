@@ -1,10 +1,9 @@
 import React from 'react';
 import '../stylesheets/Contact.scss';
 
-
 function Contact() {
   return (
-    <div className="contact">
+    <div className="wrapper">
       <div className="contact__main">
         <h2 className="contact__principal">Contacto</h2>
           <p className="contact__question">

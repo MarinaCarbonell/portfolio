@@ -1,13 +1,10 @@
 import React from 'react';
 import '../stylesheets/cv.scss';
-import SideBar from './SideBar';
-
 
 function CV() {
     return (
-    <div className="cv">
-      <SideBar pageWrapId={"page-wrap"} outerContainerId={"Spanish"} />
-        <div className="cv__studies">
+    <div className="wrapper">
+          <div className="cv__studies">
           <h3 className="cv__title">Breve resumen sobre mi</h3>
           <div className="cv__body">
             <p className="cv__paragraph">

@@ -1,36 +1,27 @@
 
-.name-paragraph{
-    font-size: 50px;
-    overflow: hidden;
-    border-right: .15em solid black;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: 
-      typing 4.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-
+.cv-wrapper{
+  margin: 50px;
+  .text{
+    display: flex;
+    flex-direction: column;
+    font-size:45px;
+    animation-name: text;
+    animation-duration: 5s;
 }
-  
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black; }
-  }
 
-.button{
-    width: 100px;
-    height: 50px;
-    margin-top: 100px;
-    margin-right: 100px;
-    background-color: #FFEBCD;
-    font-family: 'Quicksand', sans-serif;
-    border:2px solid black;
-    text-decoration: none;
-    color: black;
+@keyframes text {
+    0%   {opacity: 0;}
+    25%  {opacity: 0.25s}
+    50%  {opacity: 0.5s}
+    75%  {opacity: 0.75s}
+    100% {opacity: 1s;}
+  }
+}
 
+.profile-img{
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  left: 36px;
+  top: 36px;
 }
