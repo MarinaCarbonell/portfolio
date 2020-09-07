@@ -1,26 +1,14 @@
-.proyects {
-    margin: 50px;
-    &__title{
-    text-align: center;
-    font-size:45px;
-    overflow: hidden;
-    border-right: .15em solid black;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: 
-      typing 4.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-    }
 
-}
-  
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+  .proyect-img{
+    width: 500px;
   }
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black; }
+
+  .proyects__list{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .tech{
+    width: 50px;
+    
   }
