@@ -7,7 +7,7 @@ import '../stylesheets/SideBar.scss';
 function SideBar (props) {
   return (
     <Menu {...props}>
-      <Link to="/">Inicio</Link>
+      <Link to="/aboutme">Inicio</Link>
       <Link to="/cv">Mi CV</Link>
       <Link to="/proyects">Proyects</Link>
       <Link to="/contact">Contact</Link>     

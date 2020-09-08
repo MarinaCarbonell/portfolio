@@ -4,6 +4,7 @@ import '../stylesheets/reset.scss';
 import './Landing';
 import Landing from './Landing';
 import {Switch, Route} from 'react-router-dom';
+import Arrival from './Arrival';
 import CV from './CV';
 import Proyects from './Proyects';
 import Contact from './Contact';
@@ -19,7 +20,8 @@ function App() {
       <div id="page-wrap">
       </div>
       <Switch>
-        <Route exact path="/" component={Landing} />
+        <Route exact path="/" component={Arrival} />
+        <Route exact path="/aboutme" component={Landing} />
         <Route exact path="/cv" component={CV} />
         <Route exact path="/proyects" component={Proyects} />
         <Route exact path="/contact" component={Contact} />
