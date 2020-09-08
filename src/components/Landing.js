@@ -10,7 +10,7 @@ function Landing(props) {
             decidí formarme como <em>Programadora Front-End</em> en <a href="https://adalab.es/">Adalab</a>.
           </p>
           <p className="text">
-          Soy <em>aprendiz</em> incansable, cotilla del <em>código ageno</em> y <em>lectora</em> de todo lo que cae ante mis ojos.
+          Soy <em>aprendiz</em> incansable, cotilla del <em>código ajeno</em> y <em>lectora</em> de todo lo que cae ante mis ojos.
           </p>
           <p className="text">
             Y si tú has llegado hasta aquí es porque estás interesado en mi a si que, ¡gracias!.
