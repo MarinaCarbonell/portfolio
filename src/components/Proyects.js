@@ -21,7 +21,7 @@ function Proyects() {
         </div>
         <div className="proyects__list">
           <div className="proyect">
-            <h2>Anonymous Proxy</h2>
+            <h2 className="proyect__title">Anonymous Proxy</h2>
             <a href="https://marinacarbonell.github.io/Anonymous-Proxy/">
             <img className="proyect-img" src={anonymous} alt="anonymous-img"></img>
             </a>
@@ -30,7 +30,7 @@ function Proyects() {
 
           </div>
           <div className="proyect">
-            <h2>Queen of Code</h2>
+            <h2 className="proyect__title">Queen of Code</h2>
             <a href="https://marinacarbonell.github.io/Queens-of-Code/">
             <img className="proyect-img" src={queens} alt="queens-img"></img>
             </a>
@@ -39,20 +39,24 @@ function Proyects() {
 
           </div>
           <div className="proyect">
-            <h2>Awesome Profile Cards</h2>
+            <h2 className="proyect__title">Awesome Profile Cards</h2>
             <a href="https://marinacarbonell.github.io/awesome-profile-cards/">
             <img className="proyect-img" src={awesome} alt="awesome-img"></img>
             </a>
             <img className="tech" src={html} alt="html-img"></img>
             <img className="tech" src={css} alt="css-img"></img>
+            <img className="tech" src={JS} alt="js-img"></img>
+
 
           </div>
           <div className="proyect">
-            <h2>Rick and Morty</h2>
+            <h2 className="proyect__title">Rick and Morty</h2>
             <a href="https://marinacarbonell.github.io/Rick-and-Morty/#/">
             <img className="proyect-img" src={rick} alt="rick-img"></img>
             <img className="tech" src={html} alt="html-img"></img>
             <img className="tech" src={css} alt="css-img"></img>
+            <img className="tech" src={react} alt="react-img"></img>
+
 
             </a>
           </div>

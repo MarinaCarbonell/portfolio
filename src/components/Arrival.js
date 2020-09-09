@@ -5,9 +5,12 @@ import '../stylesheets/Arrival.scss';
 function Arrival() {
     return (
         <div className="arrival">
-            <button className="arrival__button" type="button">
-                <Link to="/aboutme" >Hello, world!</Link>
-            </button>
+            <div>{`<div className=welcome>`}</div>
+            <div className="paragrah">{`<p>`}</div>
+            <div className="paragrah">{`Hello, world!`}</div>
+            <Link to="/aboutme" className="paragrah">{`Haz click aquí para visitar mi portfolio`}</Link>
+            <div className="paragrah">{`</p>`}</div>
+            <div>{`<\div>`}</div>
         </div>
     );
   }
