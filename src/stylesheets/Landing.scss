@@ -1,8 +1,9 @@
 
 .text{
+  text-align: center;
+  font-size:25px;
   .p{
-    text-align: center;
-    font-size:45px;
+    visibility: hidden;
     overflow: hidden;
     border-right: .15em solid black;
     white-space: nowrap;
@@ -10,16 +11,39 @@
     letter-spacing: .15em;
     animation: 
       typing 4.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-}
+      blink-caret .75s step-end 7;
+    animation-fill-mode: forwards;
+  }
   @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+    0% { width: 0; visibility: hidden; }
+    100% { width: 100%; visibility: visible; }
   }
   
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: black; }
   }
-  
+  .p2{
+    animation-delay: 5s;
+  }
+  .p3{
+    animation-delay: 10s;
+  }
+  .p4{
+    animation-delay: 15s;
+  }
+  .p5{
+    animation-delay: 20s;
+  }
+  .p6{
+    animation-delay: 25s;
+  }
+  .p7{
+    animation: 
+      typing 4.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 30s;
+  }
 }
+  
