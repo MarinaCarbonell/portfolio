@@ -1,42 +1,22 @@
-.cv__studies{
+.cv{
   margin:50px;
-}
-
-.cv__body {
+  &__body {
     margin:45px;
-}
-.cv__title {
+  }
+  &__title {
     text-align: center;
     font-size:45px;
-    overflow: hidden;
-    border-right: .15em solid black;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: 
-      typing 4.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-
-}
-  
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
   }
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black; }
+  &__paragraph{
+    text-align: justify;
   }
+}  
 
 .subtitle{
   font-size: 25px;
   text-align: center;
 }
 
-.cv__paragraph{
-  text-align: justify;
-}
 
 .experience{
   display: flex;

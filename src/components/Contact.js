@@ -1,15 +1,18 @@
 import React from 'react';
 import '../stylesheets/Contact.scss';
+import { Link } from 'react-router-dom';
+import image from '../docs/images/M.png';
+
 
 function Contact() {
 
   return (
     <div className="wrapper">
-      <div className="contact__main">
-        <h2 className="title">Contacto</h2>
-          <p className="contact__question">
-            ¿Quieres ponerte en contacto conmigo?
-          </p>
+      <div className="contact">
+      <Link to="/">
+        <img className="profile-img" src={image} alt="profile-img"></img>
+      </Link>
+        <h2 className="title">¿Quieres ponerte en contacto conmigo?</h2>
           <p className="contact__phrase">
             Puedes hacerlo rellenando el siguiente formulario
           </p>

@@ -1,19 +1,25 @@
 
-.landing-wrapper{
-  margin: 200px 70px;
-  .text{
-    text-align: justify;
+.text{
+  .p{
+    text-align: center;
     font-size:45px;
-    animation-name: text;
-    animation-duration: 5s;
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+      typing 4.5s steps(40, end),
+      blink-caret .75s step-end infinite;
 }
-
-@keyframes text {
-    0%   {opacity: 0;}
-    25%  {opacity: 0.25s}
-    50%  {opacity: 0.5s}
-    75%  {opacity: 0.75s}
-    100% {opacity: 1s;}
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
   }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+  
 }
-

@@ -1,16 +1,14 @@
 
-.contact__question{
-  font-size: 35px;
-}
-.contact__phrase{
-  font-size: 25px;
+
+.contact{
+  text-align: center;
+  margin:50px;
+  display: flex;
+  flex-direction: column;
 }
 
-.contact__main {
-    text-align: center;
-    margin:50px;
-    display: flex;
-    flex-direction: column;
+.contact__phrase{
+  font-size: 25px;
 }
 
 .contact__form {
@@ -28,16 +26,6 @@
   }textarea{
     height: 100px;
   }
-}
-  
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-  
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: black; }
 }
 
 .button_send{
