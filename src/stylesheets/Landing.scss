@@ -2,9 +2,10 @@
 
 .text {
   text-align: left;
-  font-size: 25px;
+  font-size: 15px;
   @include tablet {
-    font-size: 20px;
+    text-align: left;
+    font-size: 22px;
   }
   .p {
     padding: 0px 0 20px 0;
@@ -14,8 +15,16 @@
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.15em;
-    animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end 7;
+    animation: typing 2s steps(15, end), blink-caret 0.75s step-end 3;
     animation-fill-mode: forwards;
+    @include tablet {
+      animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end 4;
+      animation-fill-mode: forwards;
+    }
+    @include desktop {
+      animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end 7;
+      animation-fill-mode: forwards;
+    }
   }
   @keyframes typing {
     0% {
@@ -27,7 +36,6 @@
       visibility: visible;
     }
   }
-
   @keyframes blink-caret {
     from,
     to {
@@ -38,30 +46,91 @@
     }
   }
   .p2 {
-    animation-delay: 5s;
+    animation-delay: 2s;
   }
   .p3 {
-    animation-delay: 10s;
+    animation-delay: 4s;
   }
   .p4 {
-    animation-delay: 15s;
+    animation-delay: 6s;
   }
   .p5 {
-    animation-delay: 20s;
+    animation-delay: 8s;
   }
   .p6 {
-    animation-delay: 25s;
+    animation-delay: 10s;
   }
   .p7 {
-    animation-delay: 30s;
+    animation-delay: 12s;
   }
   .p8 {
-    animation-delay: 35s;
+    animation-delay: 14s;
   }
   .p9 {
+    animation-delay: 16s;
+  }
+  .p10 {
+    animation-delay: 18s;
+  }
+  .p11 {
+    animation-delay: 20s;
+  }
+  .p12 {
+    animation-delay: 22s;
+  }
+  .p13 {
+    animation-delay: 24s;
+  }
+  .p14 {
+    animation-delay: 26s;
+  }
+  .p15 {
+    animation-delay: 28s;
+  }
+  .p16 {
+    animation-delay: 30s;
+  }
+  .p17 {
     animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end infinite;
     animation-fill-mode: forwards;
-    animation-delay: 40s;
+    animation-delay: 32s;
+  }
+  @include tablet {
+    @keyframes blink-caret {
+      from,
+      to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: black;
+      }
+    }
+    .p2 {
+      animation-delay: 5s;
+    }
+    .p3 {
+      animation-delay: 10s;
+    }
+    .p4 {
+      animation-delay: 15s;
+    }
+    .p5 {
+      animation-delay: 20s;
+    }
+    .p6 {
+      animation-delay: 25s;
+    }
+    .p7 {
+      animation-delay: 30s;
+    }
+    .p8 {
+      animation-delay: 35s;
+    }
+    .p9 {
+      animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end infinite;
+      animation-fill-mode: forwards;
+      animation-delay: 40s;
+    }
   }
 }
 
@@ -72,7 +141,10 @@
   visibility: hidden;
   animation: show-smile;
   animation-fill-mode: forwards;
-  animation-delay: 45s;
+  animation-delay: 85s;
+  @include tablet {
+    animation-delay: 45s;
+  }
 }
 
 @keyframes show-smile {
