@@ -58,11 +58,26 @@
     animation-fill-mode: forwards;
     animation-delay: 40s;
   }
-  .fa-smile {
-    font-size: 50px;
-    animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end infinite;
-    animation-fill-mode: forwards;
-    animation-delay: 45s;
+}
+
+.fa-smile {
+  font-size: 50px;
+  text-align: center;
+  font-size: 90px;
+  visibility: hidden;
+  animation: show-smile;
+  animation-fill-mode: forwards;
+  animation-delay: 45s;
+}
+
+@keyframes show-smile {
+  0% {
+    width: 0;
+    visibility: hidden;
+  }
+  100% {
+    width: 100%;
+    visibility: visible;
   }
 }
 

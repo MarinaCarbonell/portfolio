@@ -1,23 +1,20 @@
+.proyect-img {
+  width: 500px;
+  border: 2px solid black;
+}
 
-  .proyect-img{
-    width: 500px;
-    border:2px solid black;
+.proyects__list {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.tech {
+  width: 50px;
+}
+
+.proyect {
+  padding: 20px;
+  &__title {
+    text-align: center;
   }
-
-  .proyects__list{
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-
-  .tech{
-    width: 50px;
-    
-  }
-
-
-  .proyect{
-    padding:20px;
-    &__title{
-      text-align: center;
-    }
-  }
+}

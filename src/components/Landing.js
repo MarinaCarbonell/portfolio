@@ -44,7 +44,7 @@ function Landing(props) {
               <span className="underline">aquí</span>.
             </Link>
           </p>
-          <p className="p p10">
+          <p>
             <i className="far fa-smile"></i>
           </p>
         </div>
