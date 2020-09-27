@@ -1,6 +1,11 @@
+@import "/mixins";
+
 .text {
   text-align: left;
   font-size: 25px;
+  @include tablet {
+    font-size: 20px;
+  }
   .p {
     padding: 0px 0 20px 0;
     visibility: hidden;

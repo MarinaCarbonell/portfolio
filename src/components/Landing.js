@@ -28,7 +28,7 @@ function Landing(props) {
             Soy <em>aprendiz</em> incansable, cotilla del <em>código ajeno</em>{" "}
             y <em>lectora</em> de todo lo
           </p>
-          <p className="p p6">que cae ante mis ojos.</p>
+          <p className="p p6">que cae en mis ojos.</p>
           <p className="p p7">
             Si quieres saber más sobre mí, no dudes en visitar mi{" "}
             <Link to="/curriculum">

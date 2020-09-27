@@ -1,3 +1,5 @@
+@import "/mixins";
+
 html {
   background-color: #ffebcd;
   font-family: "Quicksand", sans-serif;
@@ -5,6 +7,9 @@ html {
 
 .wrapper {
   margin: 90px;
+  @include tablet {
+    margin: 75px;
+  }
 }
 
 .title {
