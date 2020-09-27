@@ -8,6 +8,9 @@ html {
 .wrapper {
   margin: 40px;
   @include tablet {
+    margin: 60px;
+  }
+  @include desktop {
     margin: 80px;
   }
 }

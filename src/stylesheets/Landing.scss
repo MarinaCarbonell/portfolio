@@ -1,9 +1,22 @@
 @import "/mixins";
 
+.landing-wrapper {
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .text {
   text-align: left;
   font-size: 15px;
   @include tablet {
+    text-align: left;
+    font-size: 20px;
+  }
+  @include desktop {
     text-align: left;
     font-size: 22px;
   }
@@ -95,7 +108,7 @@
     animation-fill-mode: forwards;
     animation-delay: 32s;
   }
-  @include tablet {
+  @include desktop {
     @keyframes blink-caret {
       from,
       to {
@@ -142,7 +155,7 @@
   animation: show-smile;
   animation-fill-mode: forwards;
   animation-delay: 85s;
-  @include tablet {
+  @include desktop {
     animation-delay: 45s;
   }
 }

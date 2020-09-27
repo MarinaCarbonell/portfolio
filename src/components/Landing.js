@@ -4,13 +4,13 @@ import "../stylesheets/Landing.scss";
 import { useMediaQuery } from "react-responsive";
 
 function Landing(props) {
-  const isDesktopAndTablet = useMediaQuery({
-    query: "(min-device-width: 768px)",
+  const isDesktop = useMediaQuery({
+    query: "(min-device-width: 1024px)",
   });
   return (
     <div className="wrapper">
       <div className="landing-wrapper">
-        {isDesktopAndTablet && (
+        {isDesktop && (
           <>
             <div className="text">
               <p className="p p1">
@@ -56,7 +56,7 @@ function Landing(props) {
             </div>
           </>
         )}
-        {!isDesktopAndTablet && (
+        {!isDesktop && (
           <>
             <div className="text">
               <p className="p p1">¡Hola! Soy Marina</p>
