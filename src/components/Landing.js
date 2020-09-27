@@ -91,8 +91,8 @@ function Landing(props) {
                   <span className="underline">Currículum</span>.
                 </Link>
               </p>
-              <p className="p p15">Para ponerte en contacto conmigo,</p>
-              <p className="p p14">puedes hacerlo a través del</p>
+              <p className="p p14">Para ponerte en contacto conmigo,</p>
+              <p className="p p15">puedes hacerlo a través del</p>
               <p className="p p16">formulario que encontrarás </p>
               <p className="p p17">
                 haciendo click{" "}
