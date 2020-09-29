@@ -1,20 +1,30 @@
-.proyect-img {
-  width: 500px;
-  border: 2px solid black;
-}
-
-.proyects__list {
-  display: grid;
-  grid-template-columns: auto auto;
-}
+@import "/mixins";
 
 .tech {
-  width: 50px;
+  width: 25px;
+  @include desktop {
+    width: 50px;
+  }
 }
 
 .proyect {
   padding: 20px;
   &__title {
     text-align: center;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: auto;
+    @include desktop {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  }
+  &__img {
+    width: 250px;
+    border: 2px solid black;
+    @include desktop {
+      width: 500px;
+    }
   }
 }

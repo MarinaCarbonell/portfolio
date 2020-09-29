@@ -17,11 +17,20 @@ html {
 
 .title {
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
+  padding-top: 25px;
+  @include desktop {
+    font-size: 45px;
+  }
 }
 
 .profile-img {
-  width: 150px;
+  width: 100px;
   left: 36px;
   top: 36px;
+  @include desktop {
+    width: 150px;
+    left: 36px;
+    top: 36px;
+  }
 }
