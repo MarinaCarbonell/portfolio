@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7121d96abb0b29ea4c5ead3293e1b8e5",
+    "revision": "d974c73deab768504e1dd2f176b5658d",
     "url": "./index.html"
   },
   {
-    "revision": "29e6f4824fbe72cef2b2",
+    "revision": "e2f1b5ca1aa42f4bc260",
     "url": "./static/css/main.bcfee826.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.a1ad30c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "29e6f4824fbe72cef2b2",
-    "url": "./static/js/main.7eede68a.chunk.js"
+    "revision": "e2f1b5ca1aa42f4bc260",
+    "url": "./static/js/main.8512aa4a.chunk.js"
   },
   {
     "revision": "67811d77049c1b7325ec",
@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/queensofcode.fbcc0193.png"
   },
   {
-    "revision": "79f480b2a787b757cb7a8bd8661eaedf",
-    "url": "./static/media/rickandmorty.79f480b2.png"
+    "revision": "31efcbeea8aa3581e470068cf95bb1df",
+    "url": "./static/media/rickandmorty.31efcbee.png"
   }
 ]);
