@@ -1,5 +1,15 @@
 @import "/mixins";
 
+.wrapper_projects {
+  margin: 20px;
+  @include tablet {
+    margin: 60px;
+  }
+  @include desktop {
+    margin: 80px;
+  }
+}
+
 .tech {
   width: 25px;
   @include desktop {
@@ -8,17 +18,19 @@
 }
 
 .proyect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include desktop {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
   padding: 20px;
   &__title {
     text-align: center;
   }
   &__list {
-    display: grid;
-    grid-template-columns: auto;
-    @include desktop {
-      display: grid;
-      grid-template-columns: auto auto;
-    }
+    align-items: center;
   }
   &__img {
     width: 250px;

@@ -15,7 +15,7 @@ import sass from "../docs/images/sass.png";
 
 function Proyects() {
   return (
-    <div className="wrapper">
+    <div className="wrapper_projects">
       <Link to="/">
         <img className="profile-img" src={image} alt="profile-img"></img>
       </Link>
@@ -30,33 +30,42 @@ function Proyects() {
               alt="anonymous-img"
             ></img>
           </a>
-          <img className="tech" src={html} alt="html-img"></img>
-          <img className="tech" src={css} alt="css-img"></img>
+          <div className="tech_list">
+            <img className="tech" src={html} alt="html-img"></img>
+            <img className="tech" src={css} alt="css-img"></img>
+          </div>
         </div>
-        <div className="proyect">
+        <div className="proyect__list">
           <h2 className="proyect__title">Queen of Code</h2>
           <a href="https://marinacarbonell.github.io/Queens-of-Code/">
             <img className="proyect__img" src={queens} alt="queens-img"></img>
           </a>
-          <img className="tech" src={html} alt="html-img"></img>
-          <img className="tech" src={css} alt="css-img"></img>
+          <div className="tech_list">
+            <img className="tech" src={html} alt="html-img"></img>
+            <img className="tech" src={css} alt="css-img"></img>
+          </div>
         </div>
-        <div className="proyect">
+        <div className="proyect__list">
           <h2 className="proyect__title">Awesome Profile Cards</h2>
           <a href="https://marinacarbonell.github.io/awesome-profile-cards/">
             <img className="proyect__img" src={awesome} alt="awesome-img"></img>
           </a>
-          <img className="tech" src={html} alt="html-img"></img>
-          <img className="tech" src={css} alt="css-img"></img>
-          <img className="tech" src={JS} alt="js-img"></img>
+          <div className="tech_list">
+            <img className="tech" src={html} alt="html-img"></img>
+            <img className="tech" src={css} alt="css-img"></img>
+            <img className="tech" src={JS} alt="js-img"></img>
+          </div>
         </div>
-        <div className="proyect">
+
+        <div className="proyect__list">
           <h2 className="proyect__title">Rick and Morty</h2>
           <a href="https://marinacarbonell.github.io/Rick-and-Morty/#/">
             <img className="proyect__img" src={rick} alt="rick-img"></img>
-            <img className="tech" src={html} alt="html-img"></img>
-            <img className="tech" src={css} alt="css-img"></img>
-            <img className="tech" src={react} alt="react-img"></img>
+            <div className="tech_list">
+              <img className="tech" src={html} alt="html-img"></img>
+              <img className="tech" src={css} alt="css-img"></img>
+              <img className="tech" src={react} alt="react-img"></img>
+            </div>
           </a>
         </div>
       </div>
