@@ -5,12 +5,12 @@ import image from "../docs/images/M.png";
 
 function Contact() {
   return (
-    <div className="wrapper">
+    <div className="wrapper_contact">
       <div className="contact">
         <Link to="/">
           <img className="profile-img" src={image} alt="profile-img"></img>
         </Link>
-        <h2 className="title">Formulario de contacto</h2>
+        <h1 className="title">Formulario de contacto</h1>
         <form
           action="https://formspree.io/xnqgklry"
           method="post"
@@ -49,7 +49,11 @@ function Contact() {
             required
           ></textarea>
           <input className="button_send" type="submit" value="Enviar" />
-          <input className="button_thanks" type="submit" value="¡Gracias!" />
+          <input
+            className="hidden button_thanks"
+            type="submit"
+            value="¡Gracias!"
+          />
         </form>
       </div>
     </div>

@@ -1,25 +1,35 @@
-.contact {
-  text-align: center;
-  margin: 50px;
-  display: flex;
-  flex-direction: column;
+@import "/mixins";
+
+.wrapper_contact {
+  margin: 20px;
+  @include tablet {
+    margin: 60px;
+  }
+  @include desktop {
+    margin: 80px;
+  }
 }
 
-.contact__form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  &-input {
-    width: 400px;
-    margin: 15px;
-    font-size: 20px;
-    border: 2px solid black;
-  }
-  &-label {
-    font-size: 30px;
-  }
-  textarea {
-    height: 100px;
+.contact {
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-input {
+      width: 400px;
+      margin: 10px;
+      padding: 10px;
+      font-size: 20px;
+      border: 2px solid black;
+    }
+    &-label {
+      font-size: 25px;
+      margin: 10px;
+      text-align: left;
+    }
+    textarea {
+      height: 100px;
+    }
   }
 }
 
@@ -28,6 +38,7 @@
   height: 50px;
   border: 3px solid black;
   background-color: #ffebcd;
+  margin-top: 25px;
   font-size: 25px;
 }
 .button_send:hover {
@@ -35,8 +46,11 @@
   color: #ffebcd;
 }
 
-.button_thanks {
+.hidden {
   visibility: hidden;
+}
+
+.button_thanks {
   width: 200px;
   height: 50px;
   border: 3px solid black;
