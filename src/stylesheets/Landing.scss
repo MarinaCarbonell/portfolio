@@ -22,6 +22,7 @@
   }
   .p {
     padding: 0px 0 20px 0;
+    text-align: center;
     visibility: hidden;
     overflow: hidden;
     border-right: 0.15em solid black;
@@ -31,10 +32,12 @@
     animation: typing 2s steps(15, end), blink-caret 0.75s step-end 3;
     animation-fill-mode: forwards;
     @include tablet {
+      text-align: left;
       animation: typing 3s steps(40, end), blink-caret 0.75s step-end 4;
       animation-fill-mode: forwards;
     }
     @include desktop {
+      text-align: left;
       animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end 7;
       animation-fill-mode: forwards;
     }
@@ -104,15 +107,21 @@
     animation-delay: 30s;
   }
   .p17 {
-    animation-delay: 35s;
+    animation-delay: 32s;
   }
   .p18 {
-    animation-delay: 40s;
+    animation-delay: 34s;
   }
   .p19 {
+    animation-delay: 36s;
+  }
+  .p20 {
+    animation-delay: 38s;
+  }
+  .p21 {
     animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end infinite;
     animation-fill-mode: forwards;
-    animation-delay: 42s;
+    animation-delay: 40s;
   }
   @include tablet {
     @keyframes blink-caret {
