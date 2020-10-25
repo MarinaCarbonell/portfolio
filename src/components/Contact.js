@@ -7,6 +7,7 @@ function Contact() {
   const [name, setName] = useState("");
   const [mail, setMail] = useState("");
   const [message, setMessage] = useState("");
+  const [submit, setSubmit] = useState(false);
   const handleInputName = (evt) => {
     setName(evt.target.value);
   };
@@ -15,6 +16,9 @@ function Contact() {
   };
   const handleInputMessage = (evt) => {
     setMessage(evt.target.value);
+  };
+  const handleClickSubmit = (evt) => {
+    setSubmit(true);
   };
   return (
     <div className="wrapper_contact">
@@ -30,8 +34,11 @@ function Contact() {
         >
           <label for="fullName" className="contact__form-label">
             Nombre
+            {submit && name.length === 0 && (
+              <i class="far fa-times-circle icon"></i>
+            )}
+            {name.length > 0 && <i class="far fa-check-circle icon"></i>}
           </label>
-          {name.length > 0 && <i class="far fa-check-circle"></i>}
           <input
             onChange={handleInputName}
             className="contact__form-input"
@@ -43,8 +50,11 @@ function Contact() {
           />
           <label for="email" className="contact__form-label">
             Email
+            {submit && mail.length === 0 && (
+              <i class="far fa-times-circle icon"></i>
+            )}
+            {mail.length > 0 && <i class="far fa-check-circle icon"></i>}
           </label>
-          {mail.length > 0 && <i class="far fa-check-circle"></i>}
           <input
             onChange={handleInputMail}
             className="contact__form-input"
@@ -56,8 +66,11 @@ function Contact() {
           />
           <label for="message" className="contact__form-label">
             Mensaje
+            {submit && message.length === 0 && (
+              <i class="far fa-times-circle icon"></i>
+            )}
+            {message.length > 0 && <i class="far fa-check-circle icon"></i>}
           </label>
-          {message.length > 0 && <i class="far fa-check-circle"></i>}
           <textarea
             onChange={handleInputMessage}
             className="contact__form-input"
@@ -66,11 +79,11 @@ function Contact() {
             placeholder="Escríbeme lo que necesites"
             required
           ></textarea>
-          <input className="button_send" type="submit" value="Enviar" />
           <input
-            className="hidden button_thanks"
+            className="button_send"
             type="submit"
-            value="¡Gracias!"
+            value="Enviar"
+            onClick={handleClickSubmit}
           />
         </form>
       </div>

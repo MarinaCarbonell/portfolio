@@ -16,11 +16,23 @@
     flex-direction: column;
     align-items: center;
     &-input {
-      width: 400px;
+      width: 70vw;
       margin: 10px;
       padding: 10px;
       font-size: 20px;
       border: 2px solid black;
+      @include tablet {
+        width: 400px;
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+      }
+      @include desktop {
+        width: 400px;
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+      }
     }
     &-label {
       font-size: 25px;
@@ -46,10 +58,6 @@
   color: #ffebcd;
 }
 
-.hidden {
-  visibility: hidden;
-}
-
 .button_thanks {
   width: 200px;
   height: 50px;
@@ -60,4 +68,8 @@
 .button_thanks:hover {
   background-color: black;
   color: #ffebcd;
+}
+
+.icon {
+  margin-left: 15px;
 }
