@@ -1,17 +1,15 @@
 import React from "react";
 import "../stylesheets/Proyects.scss";
 import { Link } from "react-router-dom";
-import image from "../docs/images/M.png";
-import anonymous from "../docs/images/anonymous-proxy.png";
-import queens from "../docs/images/queensofcode.png";
-import awesome from "../docs/images/awesomeprofilecards.png";
-import rick from "../docs/images/rickandmorty.png";
-import html from "../docs/images/html5.png";
-import css from "../docs/images/CSS.png";
-import JS from "../docs/images/JS.png";
-import react from "../docs/images/react.png";
-import api from "../docs/images/api.png";
-import sass from "../docs/images/sass.png";
+import image from "../images/M.png";
+import anonymous from "../images/anonymous-proxy.png";
+import queens from "../images/queensofcode.png";
+import awesome from "../images/awesomeprofilecards.png";
+import rick from "../images/rickandmorty.png";
+import html from "../images/html5.png";
+import css from "../images/CSS.png";
+import JS from "../images/JS.png";
+import react from "../images/react.png";
 
 function Proyects() {
   return (

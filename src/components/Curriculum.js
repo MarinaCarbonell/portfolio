@@ -1,6 +1,6 @@
 import React from "react";
 import "../stylesheets/cv.scss";
-import image from "../docs/images/M.png";
+import image from "../images/M.png";
 import { Link } from "react-router-dom";
 
 function curriculum() {

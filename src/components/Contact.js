@@ -1,7 +1,7 @@
 import React from "react";
 import "../stylesheets/Contact.scss";
 import { Link } from "react-router-dom";
-import image from "../docs/images/M.png";
+import image from "../images/M.png";
 
 function Contact() {
   return (
