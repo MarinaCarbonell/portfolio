@@ -1,14 +1,14 @@
 import React from "react";
 import "../stylesheets/Contact.scss";
 import { Link } from "react-router-dom";
-import image from "../images/M.png";
+import m from "../images/M.png";
 
 function Contact() {
   return (
     <div className="wrapper_contact">
       <div className="contact">
-        <Link to="/">
-          <img className="profile-img" src={image} alt="profile-img"></img>
+        <Link to="/home">
+          <img className="profile-img" src={m} alt="profile-img"></img>
         </Link>
         <h1 className="title">Formulario de contacto</h1>
         <form

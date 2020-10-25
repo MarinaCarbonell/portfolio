@@ -1,0 +1,23 @@
+@import "/mixins";
+
+.text {
+  text-align: center;
+  @include tablet {
+    text-align: left;
+  }
+  @include desktop {
+    text-align: left;
+  }
+}
+
+.fa-smile {
+  padding-top: 20px;
+  font-size: 50px;
+  text-align: center;
+  @include tablet {
+    font-size: 70px;
+  }
+  @include desktop {
+    font-size: 90px;
+  }
+}

@@ -1,14 +1,14 @@
 import React from "react";
 import "../stylesheets/cv.scss";
-import image from "../images/M.png";
+import m from "../images/M.png";
 import { Link } from "react-router-dom";
 
 function curriculum() {
   return (
     <div className="wrapper">
       <div className="cv">
-        <Link to="/">
-          <img className="profile-img" src={image} alt="profile-img"></img>
+        <Link to="/home">
+          <img className="profile-img" src={m} alt="profile-img"></img>
         </Link>
         <h3 className="title">Breve resumen sobre mi</h3>
         <div className="cv__body">

@@ -1,7 +1,7 @@
 import React from "react";
 import "../stylesheets/Proyects.scss";
 import { Link } from "react-router-dom";
-import image from "../images/M.png";
+import m from "../images/M.png";
 import anonymous from "../images/anonymous-proxy.png";
 import queens from "../images/queensofcode.png";
 import awesome from "../images/awesomeprofilecards.png";
@@ -16,8 +16,8 @@ import api from "../images/api.png";
 function Proyects() {
   return (
     <div className="wrapper_projects">
-      <Link to="/">
-        <img className="profile-img" src={image} alt="profile-img"></img>
+      <Link to="/home">
+        <img className="profile-img" src={m} alt="profile-img"></img>
       </Link>
       <div className="title">Mis Proyectos</div>
       <div className="proyect">

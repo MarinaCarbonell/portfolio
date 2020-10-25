@@ -1,13 +1,13 @@
-import React from 'react';
-import '../stylesheets/App.scss';
-import '../stylesheets/reset.scss';
-import './Landing';
-import Landing from './Landing';
-import {Switch, Route} from 'react-router-dom';
-import Curriculum from './Curriculum';
-import Proyects from './Proyects';
-import Contact from './Contact';
-
+import React from "react";
+import "../stylesheets/App.scss";
+import "../stylesheets/reset.scss";
+import "./Landing";
+import Landing from "./Landing";
+import { Switch, Route } from "react-router-dom";
+import Curriculum from "./Curriculum";
+import Proyects from "./Proyects";
+import Contact from "./Contact";
+import StaticLanding from "./StaticLanding";
 
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
         <Route exact path="/curriculum" component={Curriculum} />
         <Route exact path="/proyects" component={Proyects} />
         <Route exact path="/contact" component={Contact} />
-      </Switch>  
+        <Route exact path="/home" component={StaticLanding} />
+      </Switch>
     </div>
   );
 }
