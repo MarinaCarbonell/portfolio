@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.4d8bf0a7.chunk.css",
-    "main.js": "./static/js/main.d7da6c43.chunk.js",
-    "main.js.map": "./static/js/main.d7da6c43.chunk.js.map",
+    "main.css": "./static/css/main.77428e89.chunk.css",
+    "main.js": "./static/js/main.05e68460.chunk.js",
+    "main.js.map": "./static/js/main.05e68460.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.7c4ac9ee.js",
     "runtime-main.js.map": "./static/js/runtime-main.7c4ac9ee.js.map",
-    "static/js/2.d8b0ce13.chunk.js": "./static/js/2.d8b0ce13.chunk.js",
-    "static/js/2.d8b0ce13.chunk.js.map": "./static/js/2.d8b0ce13.chunk.js.map",
+    "static/js/2.447a9e9a.chunk.js": "./static/js/2.447a9e9a.chunk.js",
+    "static/js/2.447a9e9a.chunk.js.map": "./static/js/2.447a9e9a.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.6c59bb703f9228d0882dfff3f83998e6.js": "./precache-manifest.6c59bb703f9228d0882dfff3f83998e6.js",
+    "precache-manifest.5c7f56348d16888217cd42276b7f4bc4.js": "./precache-manifest.5c7f56348d16888217cd42276b7f4bc4.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.4d8bf0a7.chunk.css.map": "./static/css/main.4d8bf0a7.chunk.css.map",
-    "static/js/2.d8b0ce13.chunk.js.LICENSE.txt": "./static/js/2.d8b0ce13.chunk.js.LICENSE.txt",
+    "static/css/main.77428e89.chunk.css.map": "./static/css/main.77428e89.chunk.css.map",
+    "static/js/2.447a9e9a.chunk.js.LICENSE.txt": "./static/js/2.447a9e9a.chunk.js.LICENSE.txt",
     "static/media/CSS.png": "./static/media/CSS.747e0cdd.png",
     "static/media/JS.png": "./static/media/JS.12bac607.png",
     "static/media/M.png": "./static/media/M.428a4d58.png",
@@ -19,12 +19,13 @@
     "static/media/api.png": "./static/media/api.ca5b9d80.png",
     "static/media/awesomeprofilecards.png": "./static/media/awesomeprofilecards.9afc0aee.png",
     "static/media/queensofcode.png": "./static/media/queensofcode.fbcc0193.png",
-    "static/media/rickandmorty.png": "./static/media/rickandmorty.31efcbee.png"
+    "static/media/rickandmorty.png": "./static/media/rickandmorty.31efcbee.png",
+    "static/media/sass.svg": "./static/media/sass.3e3a8cda.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7c4ac9ee.js",
-    "static/js/2.d8b0ce13.chunk.js",
-    "static/css/main.4d8bf0a7.chunk.css",
-    "static/js/main.d7da6c43.chunk.js"
+    "static/js/2.447a9e9a.chunk.js",
+    "static/css/main.77428e89.chunk.css",
+    "static/js/main.05e68460.chunk.js"
   ]
 }
