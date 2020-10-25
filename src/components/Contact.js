@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "../stylesheets/Contact.scss";
 import { Link } from "react-router-dom";
 import m from "../images/M.png";
 
 function Contact() {
+  const [name, setName] = useState("");
+  const [mail, setMail] = useState("");
+  const [message, setMessage] = useState("");
+  const handleInputName = (evt) => {
+    setName(evt.target.value);
+  };
+  const handleInputMail = (evt) => {
+    setMail(evt.target.value);
+  };
+  const handleInputMessage = (evt) => {
+    setMessage(evt.target.value);
+  };
   return (
     <div className="wrapper_contact">
       <div className="contact">
@@ -19,7 +31,9 @@ function Contact() {
           <label for="fullName" className="contact__form-label">
             Nombre
           </label>
+          {name.length > 0 && <i class="far fa-check-circle"></i>}
           <input
+            onChange={handleInputName}
             className="contact__form-input"
             type="text"
             id="fullName"
@@ -30,7 +44,9 @@ function Contact() {
           <label for="email" className="contact__form-label">
             Email
           </label>
+          {mail.length > 0 && <i class="far fa-check-circle"></i>}
           <input
+            onChange={handleInputMail}
             className="contact__form-input"
             type="email"
             id="email"
@@ -41,7 +57,9 @@ function Contact() {
           <label for="message" className="contact__form-label">
             Mensaje
           </label>
+          {message.length > 0 && <i class="far fa-check-circle"></i>}
           <textarea
+            onChange={handleInputMessage}
             className="contact__form-input"
             id="message"
             name="message"
