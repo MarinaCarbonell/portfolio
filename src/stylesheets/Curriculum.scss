@@ -1,22 +1,35 @@
+@import "/mixins";
+
 .cv {
   margin: 50px;
   &__work {
     text-align: center;
   }
   &__body {
-    margin: 45px;
-  }
-  &__title {
-    text-align: center;
-    font-size: 45px;
+    @include desktop {
+      margin: 45px;
+    }
   }
   &__languages {
     text-align: center;
+  }
+  .french {
+    padding-top: 15px;
+  }
+  &__title {
+    font-size: 25px;
+    text-align: center;
+    @include desktop {
+      font-size: 45px;
+    }
   }
 }
 
 .subtitle {
   font-size: 25px;
+  @include desktop {
+    font-size: 35px;
+  }
 }
 
 .experience {
@@ -64,4 +77,8 @@
     right: 0px;
     top: 0px;
   }
+}
+
+.company {
+  padding-top: 15px;
 }
