@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../stylesheets/App.scss";
 import "../stylesheets/reset.scss";
 import "./Landing";
@@ -10,10 +10,19 @@ import Contact from "./Contact";
 import StaticLanding from "./StaticLanding";
 
 function App() {
+  useEffect(() => {
+    sessionStorage.setItem("alreadyVisited", "true");
+  });
+
   return (
     <div className="App">
       <Switch>
-        <Route exact path="/" component={Landing} />
+        {sessionStorage.getItem("alreadyVisited") === "true" && (
+          <Route exact path="/" component={StaticLanding} />
+        )}
+        {sessionStorage.getItem("alreadyVisited") !== "true" && (
+          <Route exact path="/" component={Landing} />
+        )}
         <Route exact path="/curriculum" component={Curriculum} />
         <Route exact path="/proyects" component={Proyects} />
         <Route exact path="/contact" component={Contact} />
