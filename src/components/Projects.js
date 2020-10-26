@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/Proyects.scss";
+import "../stylesheets/Projects.scss";
 import { Link } from "react-router-dom";
 import m from "../images/M.png";
 import anonymous from "../images/anonymous-proxy.png";
