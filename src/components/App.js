@@ -3,7 +3,7 @@ import "../stylesheets/App.scss";
 import "../stylesheets/reset.scss";
 import "./Landing";
 import Landing from "./Landing";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import Curriculum from "./Curriculum";
 import Proyects from "./Projects";
 import Contact from "./Contact";
@@ -31,6 +31,7 @@ function App() {
         <Route exact path="/proyects" component={Proyects} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/home" component={StaticLanding} />
+        <Redirect from="*" to="/" />
       </Switch>
     </div>
   );
